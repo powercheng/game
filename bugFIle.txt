@@ -1,0 +1,7 @@
+1
+bug 1
+November 04, 2016. 10:06:53 AM
+bug : An unhandled exception of type 'System.NotSupportedException' occurred in Microsoft.Xna.Framework.Graphics.dll.Additional information: XNA Framework Reach profile does not support 32 bit indices.Use IndexElementSize.SixteenBits or a type that has a size of two bytes.
+
+
+

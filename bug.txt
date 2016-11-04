@@ -1,0 +1,17 @@
+add a line
+add a new line
+add a new line
+add a new line\nadd a new line\n
+add a new line
+add a new lineadd a new line
+add a new line
+add a new line
+Time : 2016.11.03.09.40.04    bug : add a new line
+Time : 2016.11.03.09.42.56    bug : add a new line
+                    fix : Time : 2016.11.03.09.43.15    bug : add a new line
+                            fix : Time : 2016.11.03.09.43.41    bug : add a new line
+                              fix : 
+Time : 2016.11.03.09.43.41    bug : add a new line
+                              fix : 
+Time : 2016.11.04.00.56.52    bug : An unhandled exception of type 'System.NotSupportedException' occurred in Microsoft.Xna.Framework.Graphics.dll.Additional information: XNA Framework Reach profile does not support 32 bit indices. Use IndexElementSize.SixteenBits or a type that has a size of two bytes.
+                              fix : use hiDef
