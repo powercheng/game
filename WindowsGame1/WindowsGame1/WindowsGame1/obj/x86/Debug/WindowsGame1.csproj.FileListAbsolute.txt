@@ -1,0 +1,16 @@
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.exe
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.pdb
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.csprojResolveAssemblyReference.cache
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.exe
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb
