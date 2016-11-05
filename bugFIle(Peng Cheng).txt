@@ -1,0 +1,15 @@
+3
+bug 1
+November 04, 2016. 10:06:53 AM
+bug : An unhandled exception of type 'System.NotSupportedException' occurred in Microsoft.Xna.Framework.Graphics.dll.Additional information: XNA Framework Reach profile does not support 32 bit indices.Use IndexElementSize.SixteenBits or a type that has a size of two bytes.
+
+bug 2
+November 04, 2016. 04:09:19 PM
+bug : texture not show up
+fix : effect.TextureEnabled = true
+
+bug 3
+November 04, 2016. 08:49:19 PM
+bug : An unhandled exception of type 'System.NullReferenceException' occurred in WindowsGame1.exe.Additional information: Object reference not set to an instance of an object.
+fix : forget load the object
+

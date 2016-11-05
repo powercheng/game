@@ -1,3 +1,5 @@
+// author peng cheng
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +19,17 @@ namespace WindowsGame1
     public class Game1 : Microsoft.Xna.Framework.Game
     {
         GraphicsDeviceManager graphics;
+        GraphicsDevice device;
+        BasicEffect effect;
+        public float aspectRatio;
         SpriteBatch spriteBatch;
+        KeyboardState oldState;
+
+
+        Character model_character;
+        Camera camera;
+        Terrain terrain;
+
 
         public Game1()
         {
@@ -36,6 +48,7 @@ namespace WindowsGame1
             // TODO: Add your initialization logic here
 
             base.Initialize();
+            oldState = Keyboard.GetState();
         }
 
         /// <summary>
@@ -44,10 +57,16 @@ namespace WindowsGame1
         /// </summary>
         protected override void LoadContent()
         {
+            device = GraphicsDevice;
+            effect = new BasicEffect(this.GraphicsDevice);
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            aspectRatio = graphics.GraphicsDevice.Viewport.AspectRatio;
             // TODO: use this.Content to load your game content here
+            camera = new Camera(this);
+            model_character = new Character(camera,this);
+            terrain = new Terrain(this, camera, device, effect);
+
         }
 
         /// <summary>
@@ -71,8 +90,73 @@ namespace WindowsGame1
                 this.Exit();
 
             // TODO: Add your update logic here
-
+            model_character.update(gameTime);
+            camera.update(gameTime, model_character, this);
+            processInput();
             base.Update(gameTime);
+        }
+
+       private void processInput()
+        {
+            KeyboardState newState = Keyboard.GetState();
+            // keyboard control
+            KeyboardState keyboardState = Keyboard.GetState();
+            if (keyboardState.IsKeyDown(Keys.Escape)) this.Exit();
+            if (keyboardState.IsKeyDown(Keys.A))
+            {
+                model_character.modelPosition.X -= 0.1f;
+            }
+            if (keyboardState.IsKeyDown(Keys.D))
+            {
+                model_character.modelPosition.X += 0.1f;
+            }
+            if (keyboardState.IsKeyDown(Keys.Up))
+            {
+                model_character.modelPosition.Y += 0.1f;
+            }
+            if (keyboardState.IsKeyDown(Keys.Down))
+            {
+                model_character.modelPosition.Y -= 0.1f;
+            }
+            if (keyboardState.IsKeyDown(Keys.A))
+            {
+                model_character.modelPosition.X -= 0.1f;
+            }
+            if (keyboardState.IsKeyDown(Keys.D))
+            {
+                model_character.modelPosition.X += 0.1f;
+            }
+            if (keyboardState.IsKeyDown(Keys.S))
+            {
+                model_character.modelPosition.Z += 0.1f;
+            }
+            if (keyboardState.IsKeyDown(Keys.W))
+            {
+                model_character.modelPosition.Z -= 0.1f;
+            }
+            /*            if (keyboardState.IsKeyDown(Keys.A))
+                        {
+                            model_character.modelRotation.Z += 0.05f;
+
+                        }
+                        if (keyboardState.IsKeyDown(Keys.D))
+                        {
+                            model_character.modelRotation.Z -= 0.05f;
+                        }
+                        if (keyboardState.IsKeyDown(Keys.W))
+                        {
+                            model_character.modelRotation.Y += 0.05f;
+                        }
+                        if (keyboardState.IsKeyDown(Keys.S))
+                        {
+                            model_character.modelRotation.Y -= 0.05f;
+                        }
+                        if (keyboardState.IsKeyDown(Keys.Y))
+                        {
+                            LoadContent();
+                        }*/
+            oldState = newState;
+
         }
 
         /// <summary>
@@ -84,7 +168,9 @@ namespace WindowsGame1
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-
+            terrain.Draw(camera);
+            model_character.Draw();
+            
             base.Draw(gameTime);
         }
     }

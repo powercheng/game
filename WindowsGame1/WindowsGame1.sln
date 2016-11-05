@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsGame1", "WindowsGame
 EndProject
 Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "WindowsGame1Content", "WindowsGame1\WindowsGame1Content\WindowsGame1Content.contentproj", "{B32D7CEE-D9E3-4ADE-96EB-C2A620A60A87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "..\..\..\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.csproj", "{02D48BD9-8025-4C5A-9240-F11002EB143C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,14 +25,6 @@ Global
 		{B32D7CEE-D9E3-4ADE-96EB-C2A620A60A87}.Debug|x86.ActiveCfg = Debug|x86
 		{B32D7CEE-D9E3-4ADE-96EB-C2A620A60A87}.Release|Any CPU.ActiveCfg = Release|x86
 		{B32D7CEE-D9E3-4ADE-96EB-C2A620A60A87}.Release|x86.ActiveCfg = Release|x86
-		{02D48BD9-8025-4C5A-9240-F11002EB143C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{02D48BD9-8025-4C5A-9240-F11002EB143C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{02D48BD9-8025-4C5A-9240-F11002EB143C}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{02D48BD9-8025-4C5A-9240-F11002EB143C}.Debug|x86.Build.0 = Debug|Any CPU
-		{02D48BD9-8025-4C5A-9240-F11002EB143C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{02D48BD9-8025-4C5A-9240-F11002EB143C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{02D48BD9-8025-4C5A-9240-F11002EB143C}.Release|x86.ActiveCfg = Release|Any CPU
-		{02D48BD9-8025-4C5A-9240-F11002EB143C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
