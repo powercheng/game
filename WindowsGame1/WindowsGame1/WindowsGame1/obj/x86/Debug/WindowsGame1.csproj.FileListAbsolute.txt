@@ -18,3 +18,14 @@ C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\Window
 C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Textures\wedge_p1_diff_v1.xnb
 C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\textures\wedge_p1_diff_v1_0.xnb
 C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Textures\grass.xnb
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\dude.xnb
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\head.xnb
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\jacket.xnb
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\pants.xnb
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\upBodyC.xnb
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\head_0.xnb
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\jacket_0.xnb
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\pants_0.xnb
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\upBodyC_0.xnb
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\SkinnedModel.dll
+C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\SkinnedModel.pdb

@@ -8,12 +8,29 @@
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\p1_wedge.xnb</Output>
-      <Time>2016-11-04T20:47:59.8700791-04:00</Time>
+      <Time>2016-11-05T23:50:18.9429492-04:00</Time>
       <Dependency>
         <Key>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\p1_wedge_0.xml</Key>
-        <Value>2016-11-04T21:50:59.6531581-04:00</Value>
+        <Value>2016-11-06T01:40:54.2509165-04:00</Value>
       </Dependency>
       <Request>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\textures\wedge_p1_diff_v1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\dude.fbx</Source>
+      <Name>Models\dude</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\dude.xnb</Output>
+      <Time>2016-11-06T00:22:15.1792586-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\dude_0.xml</Key>
+        <Value>2016-11-06T01:40:57.5160845-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\head_0.xnb</Request>
+      <Request>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\jacket_0.xnb</Request>
+      <Request>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\pants_0.xnb</Request>
+      <Request>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\upBodyC_0.xnb</Request>
     </Item>
     <Item>
       <Source>Textures\wedge_p1_diff_v1.tga</Source>
@@ -22,7 +39,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Textures\wedge_p1_diff_v1.xnb</Output>
-      <Time>2016-11-04T20:48:48.4623405-04:00</Time>
+      <Time>2016-11-05T23:50:18.998986-04:00</Time>
     </Item>
     <Item>
       <Source>Textures\grass.dds</Source>
@@ -31,14 +48,50 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Textures\grass.xnb</Output>
-      <Time>2016-11-04T21:44:18.2365763-04:00</Time>
+      <Time>2016-11-05T23:50:18.9909823-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\head.tga</Source>
+      <Name>Models\head</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\head.xnb</Output>
+      <Time>2016-11-06T00:04:22.0129731-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\jacket.tga</Source>
+      <Name>Models\jacket</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\jacket.xnb</Output>
+      <Time>2016-11-06T00:04:25.8716296-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\pants.tga</Source>
+      <Name>Models\pants</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\pants.xnb</Output>
+      <Time>2016-11-06T00:04:29.2436616-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\upBodyC.tga</Source>
+      <Name>Models\upBodyC</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\upBodyC.xnb</Output>
+      <Time>2016-11-06T00:04:31.4165013-04:00</Time>
     </Item>
     <Item>
       <Source>Models\p1_wedge.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\p1_wedge_0.xml</Output>
-      <Time>2016-11-04T20:47:59.8700791-04:00</Time>
+      <Time>2016-11-05T23:50:18.9429492-04:00</Time>
     </Item>
     <Item>
       <Source>textures\wedge_p1_diff_v1.tga</Source>
@@ -54,7 +107,78 @@
       </Parameters>
       <Options>None</Options>
       <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\textures\wedge_p1_diff_v1_0.xnb</Output>
-      <Time>2016-11-04T20:48:48.4623405-04:00</Time>
+      <Time>2016-11-05T23:50:18.998986-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\dude.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\dude_0.xml</Output>
+      <Time>2016-11-06T00:22:15.1792586-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\head.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\head_0.xnb</Output>
+      <Time>2016-11-06T00:04:22.0129731-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\jacket.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\jacket_0.xnb</Output>
+      <Time>2016-11-06T00:04:25.8716296-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\pants.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\pants_0.xnb</Output>
+      <Time>2016-11-06T00:04:29.2436616-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\upBodyC.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\upBodyC_0.xnb</Output>
+      <Time>2016-11-06T00:04:31.4165013-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -69,6 +193,10 @@
       <OutputDirectory>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
+      <Assembly>
+        <Key>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll</Key>
+        <Value>2016-11-06T01:40:52.5445452-04:00</Value>
+      </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
         <Value>2011-09-01T16:22:30-04:00</Value>

@@ -29,7 +29,7 @@ namespace WindowsGame1
         Character model_character;
         Camera camera;
         Terrain terrain;
-
+        People people;
 
         public Game1()
         {
@@ -67,6 +67,8 @@ namespace WindowsGame1
             model_character = new Character(camera,this);
             terrain = new Terrain(this, camera, device, effect);
 
+            people = new People(camera, this);
+
         }
 
         /// <summary>
@@ -91,12 +93,26 @@ namespace WindowsGame1
 
             // TODO: Add your update logic here
             model_character.update(gameTime);
-            camera.update(gameTime, model_character, this);
-            processInput();
+            camera.update(gameTime, people, this);
+
+            
+            processInput(gameTime);
             base.Update(gameTime);
         }
 
-       private void processInput()
+        protected override void Draw(GameTime gameTime)
+        {
+            GraphicsDevice.Clear(Color.CornflowerBlue);
+
+            // TODO: Add your drawing code here
+            terrain.Draw(camera);
+            model_character.Draw();
+            people.Draw();
+            //people.update(gameTime);
+            base.Draw(gameTime);
+        }
+
+        private void processInput(GameTime gameTime)
         {
             KeyboardState newState = Keyboard.GetState();
             // keyboard control
@@ -104,11 +120,15 @@ namespace WindowsGame1
             if (keyboardState.IsKeyDown(Keys.Escape)) this.Exit();
             if (keyboardState.IsKeyDown(Keys.A))
             {
-                model_character.modelPosition.X -= 0.1f;
+              //  model_character.modelPosition.X -= 0.1f;
+                people.modelPosition.X -= 0.01f;
+                people.update(gameTime);
             }
             if (keyboardState.IsKeyDown(Keys.D))
             {
-                model_character.modelPosition.X += 0.1f;
+             //   model_character.modelPosition.X += 0.1f;
+                people.modelPosition.X += 0.01f;
+                people.update(gameTime);
             }
             if (keyboardState.IsKeyDown(Keys.Up))
             {
@@ -118,21 +138,17 @@ namespace WindowsGame1
             {
                 model_character.modelPosition.Y -= 0.1f;
             }
-            if (keyboardState.IsKeyDown(Keys.A))
-            {
-                model_character.modelPosition.X -= 0.1f;
-            }
-            if (keyboardState.IsKeyDown(Keys.D))
-            {
-                model_character.modelPosition.X += 0.1f;
-            }
             if (keyboardState.IsKeyDown(Keys.S))
             {
-                model_character.modelPosition.Z += 0.1f;
+             //   model_character.modelPosition.Z += 0.1f;
+                people.modelPosition.Z += 0.01f;
+                people.update(gameTime);
             }
             if (keyboardState.IsKeyDown(Keys.W))
             {
-                model_character.modelPosition.Z -= 0.1f;
+                //model_character.modelPosition.Z -= 0.1f;
+                people.modelPosition.Z -= 0.01f;
+                people.update(gameTime);
             }
             /*            if (keyboardState.IsKeyDown(Keys.A))
                         {
@@ -163,15 +179,6 @@ namespace WindowsGame1
         /// This is called when the game should draw itself.
         /// </summary>
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
-        protected override void Draw(GameTime gameTime)
-        {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
-            terrain.Draw(camera);
-            model_character.Draw();
-            
-            base.Draw(gameTime);
-        }
     }
 }

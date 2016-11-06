@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Camera.cs" />
+    <Compile Include="People.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
@@ -71,6 +72,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SkinnedModel\SkinnedModelWindows.csproj">
+      <Project>{0d41e29b-829f-4255-bca5-64dc2677da6d}</Project>
+      <Name>SkinnedModelWindows</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WindowsGame1Content\WindowsGame1Content.contentproj">
       <Name>WindowsGame1Content</Name>
       <XnaReferenceType>Content</XnaReferenceType>
