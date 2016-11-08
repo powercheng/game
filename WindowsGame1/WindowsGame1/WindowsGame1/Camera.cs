@@ -16,7 +16,7 @@ namespace WindowsGame1
                         Vector3.Zero, Vector3.Up);
         }
 
-        public void update(GameTime gameTime,People c,Game1 game)
+        public void update(GameTime gameTime,Character c,Game1 game)
         {
             Vector3 campos = new Vector3(0, 2f, 3f);
             campos = Vector3.Transform(campos, Matrix.CreateFromQuaternion(Quaternion.Identity));

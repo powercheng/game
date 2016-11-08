@@ -16,12 +16,12 @@ namespace WindowsGame1
         public Vector3 modelPosition;
         public Vector3 modelRotation;
 
-        public Character(Camera camera, Game1 game)
+        public Character(Camera camera, Game1 game,Vector3 position, Vector3 rotation, String path)
         {
             this.camera = camera;
-            this.modelPosition = new Vector3(0.0f, 0.0f,0.0f);
-            this.modelRotation = new Vector3(0.0f, 0.0f, 0.0f);
-            myModel = game.Content.Load<Model>("Models\\p1_wedge");
+            this.modelPosition = position;
+            this.modelRotation = rotation;
+            myModel = game.Content.Load<Model>(path);
 
         }
 

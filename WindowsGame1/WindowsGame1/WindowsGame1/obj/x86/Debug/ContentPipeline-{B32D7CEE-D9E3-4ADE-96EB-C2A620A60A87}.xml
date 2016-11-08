@@ -57,7 +57,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\head.xnb</Output>
-      <Time>2016-11-06T00:04:22.0129731-04:00</Time>
+      <Time>2016-11-06T17:14:06.8230362-05:00</Time>
     </Item>
     <Item>
       <Source>Models\jacket.tga</Source>
@@ -130,7 +130,7 @@
       </Parameters>
       <Options>None</Options>
       <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\head_0.xnb</Output>
-      <Time>2016-11-06T00:04:22.0129731-04:00</Time>
+      <Time>2016-11-06T17:14:06.8230362-05:00</Time>
     </Item>
     <Item>
       <Source>Models\jacket.tga</Source>

@@ -64,7 +64,10 @@ namespace WindowsGame1
             aspectRatio = graphics.GraphicsDevice.Viewport.AspectRatio;
             // TODO: use this.Content to load your game content here
             camera = new Camera(this);
-            model_character = new Character(camera,this);
+            Vector3 pos = new Vector3(0.0f, 0.0f, 0.0f);
+            Vector3 rot = new Vector3(0.0f, 0.0f, 0.0f);
+            String path = "Models\\p1_wedge";
+            model_character = new Character(camera,this,pos,rot,path);
             terrain = new Terrain(this, camera, device, effect);
 
             people = new People(camera, this);
@@ -93,7 +96,7 @@ namespace WindowsGame1
 
             // TODO: Add your update logic here
             model_character.update(gameTime);
-            camera.update(gameTime, people, this);
+            camera.update(gameTime, model_character, this);
 
             
             processInput(gameTime);
@@ -120,13 +123,13 @@ namespace WindowsGame1
             if (keyboardState.IsKeyDown(Keys.Escape)) this.Exit();
             if (keyboardState.IsKeyDown(Keys.A))
             {
-              //  model_character.modelPosition.X -= 0.1f;
+                model_character.modelPosition.X -= 0.1f;
                 people.modelPosition.X -= 0.01f;
                 people.update(gameTime);
             }
             if (keyboardState.IsKeyDown(Keys.D))
             {
-             //   model_character.modelPosition.X += 0.1f;
+                model_character.modelPosition.X += 0.1f;
                 people.modelPosition.X += 0.01f;
                 people.update(gameTime);
             }
@@ -140,13 +143,13 @@ namespace WindowsGame1
             }
             if (keyboardState.IsKeyDown(Keys.S))
             {
-             //   model_character.modelPosition.Z += 0.1f;
+                model_character.modelPosition.Z += 0.1f;
                 people.modelPosition.Z += 0.01f;
                 people.update(gameTime);
             }
             if (keyboardState.IsKeyDown(Keys.W))
             {
-                //model_character.modelPosition.Z -= 0.1f;
+                model_character.modelPosition.Z -= 0.1f;
                 people.modelPosition.Z -= 0.01f;
                 people.update(gameTime);
             }
