@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Models\p1_wedge.fbx</Source>
+      <Name>Models\p1_wedge</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\p1_wedge.xnb</Output>
+      <Time>2016-11-06T13:58:06-05:00</Time>
+      <Dependency>
+        <Key>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\p1_wedge_0.xml</Key>
+        <Value>2016-11-09T20:42:17.4586063-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\textures\wedge_p1_diff_v1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\dude.fbx</Source>
+      <Name>Models\dude</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\dude.xnb</Output>
+      <Time>2016-11-06T13:58:06-05:00</Time>
+      <Dependency>
+        <Key>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\dude_0.xml</Key>
+        <Value>2016-11-09T20:42:20.3163695-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\head_0.xnb</Request>
+      <Request>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\jacket_0.xnb</Request>
+      <Request>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\pants_0.xnb</Request>
+      <Request>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\upBodyC_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\po1.fbx</Source>
+      <Name>Models\po1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\po1.xnb</Output>
+      <Time>2016-11-07T22:05:33.8377998-05:00</Time>
+      <Dependency>
+        <Key>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\po1_0.xml</Key>
+        <Value>2016-11-09T20:42:22.4943109-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Monster1\spino.fbx</Source>
+      <Name>Models\Monster1\spino</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Monster1\spino.xnb</Output>
+      <Time>2016-11-08T14:21:18.0106124-05:00</Time>
+      <Dependency>
+        <Key>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Monster1\spino_0.xml</Key>
+        <Value>2016-11-09T20:42:22.6497295-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Monster2\monster1_modify.fbx</Source>
+      <Name>Models\Monster2\monster1_modify</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Monster2\monster1_modify.xnb</Output>
+      <Time>2016-11-08T12:51:17.9368077-05:00</Time>
+      <Dependency>
+        <Key>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Monster2\monster1_modify_0.xml</Key>
+        <Value>2016-11-09T20:42:24.0526775-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Tree\tree1.fbx</Source>
+      <Name>Models\Tree\tree1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\tree1.xnb</Output>
+      <Time>2016-11-08T14:26:31.2270205-05:00</Time>
+      <Dependency>
+        <Key>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Tree\tree1_0.xml</Key>
+        <Value>2016-11-09T20:42:24.6429373-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\bark_0021_0.xnb</Request>
+      <Request>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\Tree.fbm\DB2X2_L01_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Tree\AlanTree1.fbx</Source>
+      <Name>Models\Tree\AlanTree1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\AlanTree1.xnb</Output>
+      <Time>2016-11-08T15:32:30.8341209-05:00</Time>
+      <Dependency>
+        <Key>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Tree\AlanTree1_0.xml</Key>
+        <Value>2016-11-09T20:42:27.0448298-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\BroadleafBark_0.xnb</Request>
+      <Request>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\SampleLeaves_2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Textures\wedge_p1_diff_v1.tga</Source>
+      <Name>Textures\wedge_p1_diff_v1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Textures\wedge_p1_diff_v1.xnb</Output>
+      <Time>2016-11-06T13:58:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\grass.dds</Source>
+      <Name>Textures\grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Textures\grass.xnb</Output>
+      <Time>2016-11-06T13:58:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\head.tga</Source>
+      <Name>Models\head</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\head.xnb</Output>
+      <Time>2016-11-06T13:58:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\jacket.tga</Source>
+      <Name>Models\jacket</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\jacket.xnb</Output>
+      <Time>2016-11-06T13:58:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\pants.tga</Source>
+      <Name>Models\pants</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\pants.xnb</Output>
+      <Time>2016-11-06T13:58:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\upBodyC.tga</Source>
+      <Name>Models\upBodyC</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\upBodyC.xnb</Output>
+      <Time>2016-11-06T13:58:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Monster2\MonsterNormalsMap.tga</Source>
+      <Name>Models\Monster2\MonsterNormalsMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Monster2\MonsterNormalsMap.xnb</Output>
+      <Time>2016-11-07T21:38:14.567929-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Tree\Tree.fbm\bark_0021.jpg</Source>
+      <Name>Models\Tree\Tree.fbm\bark_0021</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\Tree.fbm\bark_0021.xnb</Output>
+      <Time>2016-11-08T14:27:41.2319109-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Tree\Tree.fbm\DB2X2_L01.png</Source>
+      <Name>Models\Tree\Tree.fbm\DB2X2_L01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\Tree.fbm\DB2X2_L01.xnb</Output>
+      <Time>2016-11-08T14:27:41.2369136-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Tree\Tree.fbm\DB2X2_L01_Nor.png</Source>
+      <Name>Models\Tree\Tree.fbm\DB2X2_L01_Nor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\Tree.fbm\DB2X2_L01_Nor.xnb</Output>
+      <Time>2016-11-08T14:27:41.2419174-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Tree\Tree.fbm\DB2X2_L01_Spec.png</Source>
+      <Name>Models\Tree\Tree.fbm\DB2X2_L01_Spec</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\Tree.fbm\DB2X2_L01_Spec.xnb</Output>
+      <Time>2016-11-08T14:27:41.2449193-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Tree\bark_0021.jpg</Source>
+      <Name>Models\Tree\bark_0021</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\bark_0021.xnb</Output>
+      <Time>2016-11-08T14:27:58.6742318-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Tree\BroadleafBark.tga</Source>
+      <Name>Models\Tree\BroadleafBark</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\BroadleafBark.xnb</Output>
+      <Time>2016-11-08T15:32:30.8446283-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Tree\SampleLeaves_2.tga</Source>
+      <Name>Models\Tree\SampleLeaves_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\SampleLeaves_2.xnb</Output>
+      <Time>2016-11-08T15:32:30.8486354-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\p1_wedge.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\p1_wedge_0.xml</Output>
+      <Time>2016-11-06T13:58:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\wedge_p1_diff_v1.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\textures\wedge_p1_diff_v1_0.xnb</Output>
+      <Time>2016-11-06T13:58:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\dude.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\dude_0.xml</Output>
+      <Time>2016-11-06T13:58:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\head.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\head_0.xnb</Output>
+      <Time>2016-11-06T13:58:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\jacket.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\jacket_0.xnb</Output>
+      <Time>2016-11-06T13:58:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\pants.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\pants_0.xnb</Output>
+      <Time>2016-11-06T13:58:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\upBodyC.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\upBodyC_0.xnb</Output>
+      <Time>2016-11-06T13:58:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\po1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\po1_0.xml</Output>
+      <Time>2016-11-07T22:05:33.8377998-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Monster1\spino.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Monster1\spino_0.xml</Output>
+      <Time>2016-11-08T14:21:18.0106124-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Monster2\monster1_modify.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Monster2\monster1_modify_0.xml</Output>
+      <Time>2016-11-08T12:51:17.9368077-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Tree\tree1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Tree\tree1_0.xml</Output>
+      <Time>2016-11-08T14:26:31.2270205-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Tree\bark_0021.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\bark_0021_0.xnb</Output>
+      <Time>2016-11-08T14:27:58.6742318-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Tree\Tree.fbm\DB2X2_L01.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\Tree.fbm\DB2X2_L01_0.xnb</Output>
+      <Time>2016-11-08T14:27:41.2369136-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Tree\AlanTree1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Tree\AlanTree1_0.xml</Output>
+      <Time>2016-11-08T15:32:30.8341209-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Tree\BroadleafBark.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\BroadleafBark_0.xnb</Output>
+      <Time>2016-11-08T15:32:30.8446283-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Tree\SampleLeaves_2.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\SampleLeaves_2_0.xnb</Output>
+      <Time>2016-11-08T15:32:30.8486354-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{B32D7CEE-D9E3-4ADE-96EB-C2A620A60A87}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll</Key>
+        <Value>2016-11-06T13:58:06-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2016-10-02T10:10:44.3674281-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
