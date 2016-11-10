@@ -15,7 +15,7 @@ namespace WindowsGame1
 
         public Camera(Game1 game)
         {
-            this.pos = new Vector3(0, 0, -30);
+            this.pos = new Vector3(60, 0, -40);
             this.projection = Matrix.CreatePerspectiveFieldOfView(MathHelper.PiOver4, game.aspectRatio, 1f, 1000.0f);
             this.view = Matrix.CreateLookAt(pos,
                         Vector3.Zero, Vector3.Up);

@@ -112,7 +112,7 @@ namespace WindowsGame1
 
             //Cizhen
             terrain = new Terrain(this, camera, device, effect);
-            people = new People(camera, this, new Vector3(0.0f, 0.0f, 0.0f), new Vector3(0.0f, 0.0f, 0.0f));
+            people = new People(camera, this, new Vector3(60.0f, 0.0f, -60.0f), new Vector3(0.0f, 0.0f, 0.0f));
             //monster2 = new AnimatedMonster(camera, this, "Models\\Monster1\\godzilla");
         }
 
