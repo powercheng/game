@@ -35,6 +35,7 @@ namespace WindowsGame1
         Camera camera;
         Terrain terrain;
         People people;
+        Sky sky;
 
         //Cizhen
         //Character monster2;
@@ -84,7 +85,7 @@ namespace WindowsGame1
             camera = new Camera(this);
             po = new Character(camera, this, "Models\\po1", 0.002f, new Vector3(0.0f, 0.0f, 0.0f), new Vector3(0.0f, MathHelper.Pi, 0.0f));
             // model_character = new Character(camera, this, "Models\\Monster1\\po", 0.002f);
-
+            sky = new Sky(camera, this);
             //Cizhen
             Random rnd = new Random();
             for (int i = 0; i < 10; i++)
@@ -122,6 +123,7 @@ namespace WindowsGame1
         protected override void UnloadContent()
         {
             // TODO: Unload any non ContentManager content here
+
         }
 
         /// <summary>
@@ -175,6 +177,7 @@ namespace WindowsGame1
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
+            sky.draw();
 
             // TODO: Add your drawing code here
             terrain.Draw(camera);
