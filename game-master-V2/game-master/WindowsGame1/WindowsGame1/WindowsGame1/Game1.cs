@@ -106,7 +106,7 @@ namespace WindowsGame1
 
                 a = (float)rnd.NextDouble() * 128.0f;
                 b = (float)rnd.NextDouble() * 128.0f;
-                Character alanTree = new Character(camera, this, "Models\\Tree\\AlanTree1", 0.003f, new Vector3(i * 10.0f, 0.0f,-b), Vector3.Zero);
+                Character alanTree = new Character(camera, this, "Models\\Tree\\AlanTree1", 0.003f, new Vector3(a, 0.0f,-b), Vector3.Zero);
                 allanTreeList[i] = alanTree;
             }
 
