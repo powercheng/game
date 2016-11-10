@@ -150,5 +150,28 @@ namespace WindowsGame1
 
             }
         }
+
+        public void checkBoundary(People p)
+        {
+            if (p.modelPosition.X < 0.0f)
+            {
+                p.modelPosition.X = 0.0f;
+            }
+
+            if (p.modelPosition.X > 127.0f)
+            {
+                p.modelPosition.X = 127.0f;
+            }
+
+            if (p.modelPosition.Z < -127.0f)
+            {
+                p.modelPosition.Z = -127.0f;
+            }
+
+            if (p.modelPosition.Z > 0.0f)
+            {
+                p.modelPosition.Z = 0.0f;
+            }
+        }
     }
 }

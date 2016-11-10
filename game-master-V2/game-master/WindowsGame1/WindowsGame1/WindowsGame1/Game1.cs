@@ -140,6 +140,7 @@ namespace WindowsGame1
             camera.update(gameTime, people, this);
 
             //monster1.update(gameTime);
+            terrain.checkBoundary(people);
 
             processInput(gameTime);
 
