@@ -16,3 +16,9 @@ C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\SkinnedModel\obj\x86
 C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
 C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb

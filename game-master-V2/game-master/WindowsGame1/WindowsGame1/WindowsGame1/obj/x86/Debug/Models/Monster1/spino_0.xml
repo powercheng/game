@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>RootNode</Name>
     <Identity>
-      <SourceFilename>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\Models\Monster1\spino.fbx</SourceFilename>
+      <SourceFilename>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\Models\Monster1\spino.fbx</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>

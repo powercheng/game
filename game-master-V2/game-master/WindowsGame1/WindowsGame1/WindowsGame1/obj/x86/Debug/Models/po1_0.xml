@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>RootNode</Name>
     <Identity>
-      <SourceFilename>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\Models\po1.fbx</SourceFilename>
+      <SourceFilename>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\Models\po1.fbx</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
@@ -69,7 +69,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>14cd25fd_dds</Name>
       <Identity>
-        <SourceFilename>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\Models\po1.fbx</SourceFilename>
+        <SourceFilename>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\Models\po1.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -83,7 +83,7 @@
     <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
       <Name>0d0194c2_dds</Name>
       <Identity>
-        <SourceFilename>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\Models\po1.fbx</SourceFilename>
+        <SourceFilename>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\Models\po1.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

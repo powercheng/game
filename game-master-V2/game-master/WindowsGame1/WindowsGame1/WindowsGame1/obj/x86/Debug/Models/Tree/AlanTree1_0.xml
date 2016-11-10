@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>RootNode</Name>
     <Identity>
-      <SourceFilename>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\Models\Tree\AlanTree1.fbx</SourceFilename>
+      <SourceFilename>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\Models\Tree\AlanTree1.fbx</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
@@ -60,7 +60,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>Default</Name>
       <Identity>
-        <SourceFilename>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\Models\Tree\AlanTree1.fbx</SourceFilename>
+        <SourceFilename>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\Models\Tree\AlanTree1.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -74,7 +74,7 @@
     <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
       <Name>BroadleafBark</Name>
       <Identity>
-        <SourceFilename>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\Models\Tree\AlanTree1.fbx</SourceFilename>
+        <SourceFilename>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\Models\Tree\AlanTree1.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -93,7 +93,7 @@
     <Resource ID="#Resource3" Type="Graphics:BasicMaterialContent">
       <Name>SampleLeaves_2</Name>
       <Identity>
-        <SourceFilename>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\Models\Tree\AlanTree1.fbx</SourceFilename>
+        <SourceFilename>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\Models\Tree\AlanTree1.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

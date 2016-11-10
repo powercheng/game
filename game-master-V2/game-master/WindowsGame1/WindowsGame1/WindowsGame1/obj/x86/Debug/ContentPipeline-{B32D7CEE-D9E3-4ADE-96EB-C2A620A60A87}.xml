@@ -7,13 +7,13 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\p1_wedge.xnb</Output>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\p1_wedge.xnb</Output>
       <Time>2016-11-06T13:58:06-05:00</Time>
       <Dependency>
-        <Key>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\p1_wedge_0.xml</Key>
-        <Value>2016-11-09T20:42:17.4586063-05:00</Value>
+        <Key>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\p1_wedge_0.xml</Key>
+        <Value>2016-11-10T16:36:07.3384923-05:00</Value>
       </Dependency>
-      <Request>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\textures\wedge_p1_diff_v1_0.xnb</Request>
+      <Request>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\textures\wedge_p1_diff_v1_0.xnb</Request>
     </Item>
     <Item>
       <Source>Models\dude.fbx</Source>
@@ -21,16 +21,16 @@
       <Importer>FbxImporter</Importer>
       <Processor>SkinnedModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\dude.xnb</Output>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\dude.xnb</Output>
       <Time>2016-11-06T13:58:06-05:00</Time>
       <Dependency>
-        <Key>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\dude_0.xml</Key>
-        <Value>2016-11-09T20:42:20.3163695-05:00</Value>
+        <Key>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\dude_0.xml</Key>
+        <Value>2016-11-10T16:36:11.4201185-05:00</Value>
       </Dependency>
-      <Request>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\head_0.xnb</Request>
-      <Request>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\jacket_0.xnb</Request>
-      <Request>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\pants_0.xnb</Request>
-      <Request>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\upBodyC_0.xnb</Request>
+      <Request>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\head_0.xnb</Request>
+      <Request>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\jacket_0.xnb</Request>
+      <Request>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\pants_0.xnb</Request>
+      <Request>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\upBodyC_0.xnb</Request>
     </Item>
     <Item>
       <Source>Models\po1.fbx</Source>
@@ -38,11 +38,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\po1.xnb</Output>
-      <Time>2016-11-07T22:05:33.8377998-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\po1.xnb</Output>
+      <Time>2016-11-07T22:05:34-05:00</Time>
       <Dependency>
-        <Key>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\po1_0.xml</Key>
-        <Value>2016-11-09T20:42:22.4943109-05:00</Value>
+        <Key>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\po1_0.xml</Key>
+        <Value>2016-11-10T16:36:13.9535483-05:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -51,11 +51,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Monster1\spino.xnb</Output>
-      <Time>2016-11-08T14:21:18.0106124-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Monster1\spino.xnb</Output>
+      <Time>2016-11-08T14:21:20-05:00</Time>
       <Dependency>
-        <Key>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Monster1\spino_0.xml</Key>
-        <Value>2016-11-09T20:42:22.6497295-05:00</Value>
+        <Key>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Monster1\spino_0.xml</Key>
+        <Value>2016-11-10T16:36:14.2065686-05:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -64,11 +64,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Monster2\monster1_modify.xnb</Output>
-      <Time>2016-11-08T12:51:17.9368077-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Monster2\monster1_modify.xnb</Output>
+      <Time>2016-11-08T12:51:18-05:00</Time>
       <Dependency>
-        <Key>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Monster2\monster1_modify_0.xml</Key>
-        <Value>2016-11-09T20:42:24.0526775-05:00</Value>
+        <Key>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Monster2\monster1_modify_0.xml</Key>
+        <Value>2016-11-10T16:36:15.7506655-05:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -77,14 +77,14 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\tree1.xnb</Output>
-      <Time>2016-11-08T14:26:31.2270205-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\tree1.xnb</Output>
+      <Time>2016-11-08T14:26:32-05:00</Time>
       <Dependency>
-        <Key>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Tree\tree1_0.xml</Key>
-        <Value>2016-11-09T20:42:24.6429373-05:00</Value>
+        <Key>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Tree\tree1_0.xml</Key>
+        <Value>2016-11-10T16:36:16.4770059-05:00</Value>
       </Dependency>
-      <Request>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\bark_0021_0.xnb</Request>
-      <Request>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\Tree.fbm\DB2X2_L01_0.xnb</Request>
+      <Request>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\bark_0021_0.xnb</Request>
+      <Request>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\Tree.fbm\DB2X2_L01_0.xnb</Request>
     </Item>
     <Item>
       <Source>Models\Tree\AlanTree1.fbx</Source>
@@ -92,14 +92,14 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\AlanTree1.xnb</Output>
-      <Time>2016-11-08T15:32:30.8341209-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\AlanTree1.xnb</Output>
+      <Time>2016-11-08T15:32:32-05:00</Time>
       <Dependency>
-        <Key>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Tree\AlanTree1_0.xml</Key>
-        <Value>2016-11-09T20:42:27.0448298-05:00</Value>
+        <Key>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Tree\AlanTree1_0.xml</Key>
+        <Value>2016-11-10T16:36:18.9650825-05:00</Value>
       </Dependency>
-      <Request>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\BroadleafBark_0.xnb</Request>
-      <Request>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\SampleLeaves_2_0.xnb</Request>
+      <Request>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\BroadleafBark_0.xnb</Request>
+      <Request>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\SampleLeaves_2_0.xnb</Request>
     </Item>
     <Item>
       <Source>Textures\wedge_p1_diff_v1.tga</Source>
@@ -107,7 +107,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Textures\wedge_p1_diff_v1.xnb</Output>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Textures\wedge_p1_diff_v1.xnb</Output>
       <Time>2016-11-06T13:58:06-05:00</Time>
     </Item>
     <Item>
@@ -116,7 +116,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Textures\grass.xnb</Output>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Textures\grass.xnb</Output>
       <Time>2016-11-06T13:58:06-05:00</Time>
     </Item>
     <Item>
@@ -125,7 +125,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\head.xnb</Output>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\head.xnb</Output>
       <Time>2016-11-06T13:58:06-05:00</Time>
     </Item>
     <Item>
@@ -134,7 +134,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\jacket.xnb</Output>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\jacket.xnb</Output>
       <Time>2016-11-06T13:58:06-05:00</Time>
     </Item>
     <Item>
@@ -143,7 +143,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\pants.xnb</Output>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\pants.xnb</Output>
       <Time>2016-11-06T13:58:06-05:00</Time>
     </Item>
     <Item>
@@ -152,7 +152,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\upBodyC.xnb</Output>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\upBodyC.xnb</Output>
       <Time>2016-11-06T13:58:06-05:00</Time>
     </Item>
     <Item>
@@ -161,8 +161,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Monster2\MonsterNormalsMap.xnb</Output>
-      <Time>2016-11-07T21:38:14.567929-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Monster2\MonsterNormalsMap.xnb</Output>
+      <Time>2016-11-07T21:38:16-05:00</Time>
     </Item>
     <Item>
       <Source>Models\Tree\Tree.fbm\bark_0021.jpg</Source>
@@ -170,8 +170,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\Tree.fbm\bark_0021.xnb</Output>
-      <Time>2016-11-08T14:27:41.2319109-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\Tree.fbm\bark_0021.xnb</Output>
+      <Time>2016-11-08T14:27:42-05:00</Time>
     </Item>
     <Item>
       <Source>Models\Tree\Tree.fbm\DB2X2_L01.png</Source>
@@ -179,8 +179,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\Tree.fbm\DB2X2_L01.xnb</Output>
-      <Time>2016-11-08T14:27:41.2369136-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\Tree.fbm\DB2X2_L01.xnb</Output>
+      <Time>2016-11-08T14:27:42-05:00</Time>
     </Item>
     <Item>
       <Source>Models\Tree\Tree.fbm\DB2X2_L01_Nor.png</Source>
@@ -188,8 +188,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\Tree.fbm\DB2X2_L01_Nor.xnb</Output>
-      <Time>2016-11-08T14:27:41.2419174-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\Tree.fbm\DB2X2_L01_Nor.xnb</Output>
+      <Time>2016-11-08T14:27:42-05:00</Time>
     </Item>
     <Item>
       <Source>Models\Tree\Tree.fbm\DB2X2_L01_Spec.png</Source>
@@ -197,8 +197,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\Tree.fbm\DB2X2_L01_Spec.xnb</Output>
-      <Time>2016-11-08T14:27:41.2449193-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\Tree.fbm\DB2X2_L01_Spec.xnb</Output>
+      <Time>2016-11-08T14:27:42-05:00</Time>
     </Item>
     <Item>
       <Source>Models\Tree\bark_0021.jpg</Source>
@@ -206,8 +206,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\bark_0021.xnb</Output>
-      <Time>2016-11-08T14:27:58.6742318-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\bark_0021.xnb</Output>
+      <Time>2016-11-08T14:28:00-05:00</Time>
     </Item>
     <Item>
       <Source>Models\Tree\BroadleafBark.tga</Source>
@@ -215,8 +215,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\BroadleafBark.xnb</Output>
-      <Time>2016-11-08T15:32:30.8446283-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\BroadleafBark.xnb</Output>
+      <Time>2016-11-08T15:32:32-05:00</Time>
     </Item>
     <Item>
       <Source>Models\Tree\SampleLeaves_2.tga</Source>
@@ -224,14 +224,14 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\SampleLeaves_2.xnb</Output>
-      <Time>2016-11-08T15:32:30.8486354-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\SampleLeaves_2.xnb</Output>
+      <Time>2016-11-08T15:32:32-05:00</Time>
     </Item>
     <Item>
       <Source>Models\p1_wedge.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\p1_wedge_0.xml</Output>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\p1_wedge_0.xml</Output>
       <Time>2016-11-06T13:58:06-05:00</Time>
     </Item>
     <Item>
@@ -247,14 +247,14 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\textures\wedge_p1_diff_v1_0.xnb</Output>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\textures\wedge_p1_diff_v1_0.xnb</Output>
       <Time>2016-11-06T13:58:06-05:00</Time>
     </Item>
     <Item>
       <Source>Models\dude.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\dude_0.xml</Output>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\dude_0.xml</Output>
       <Time>2016-11-06T13:58:06-05:00</Time>
     </Item>
     <Item>
@@ -270,7 +270,7 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\head_0.xnb</Output>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\head_0.xnb</Output>
       <Time>2016-11-06T13:58:06-05:00</Time>
     </Item>
     <Item>
@@ -286,7 +286,7 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\jacket_0.xnb</Output>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\jacket_0.xnb</Output>
       <Time>2016-11-06T13:58:06-05:00</Time>
     </Item>
     <Item>
@@ -302,7 +302,7 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\pants_0.xnb</Output>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\pants_0.xnb</Output>
       <Time>2016-11-06T13:58:06-05:00</Time>
     </Item>
     <Item>
@@ -318,36 +318,36 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\upBodyC_0.xnb</Output>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\upBodyC_0.xnb</Output>
       <Time>2016-11-06T13:58:06-05:00</Time>
     </Item>
     <Item>
       <Source>Models\po1.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\po1_0.xml</Output>
-      <Time>2016-11-07T22:05:33.8377998-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\po1_0.xml</Output>
+      <Time>2016-11-07T22:05:34-05:00</Time>
     </Item>
     <Item>
       <Source>Models\Monster1\spino.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Monster1\spino_0.xml</Output>
-      <Time>2016-11-08T14:21:18.0106124-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Monster1\spino_0.xml</Output>
+      <Time>2016-11-08T14:21:20-05:00</Time>
     </Item>
     <Item>
       <Source>Models\Monster2\monster1_modify.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Monster2\monster1_modify_0.xml</Output>
-      <Time>2016-11-08T12:51:17.9368077-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Monster2\monster1_modify_0.xml</Output>
+      <Time>2016-11-08T12:51:18-05:00</Time>
     </Item>
     <Item>
       <Source>Models\Tree\tree1.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Tree\tree1_0.xml</Output>
-      <Time>2016-11-08T14:26:31.2270205-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Tree\tree1_0.xml</Output>
+      <Time>2016-11-08T14:26:32-05:00</Time>
     </Item>
     <Item>
       <Source>Models\Tree\bark_0021.jpg</Source>
@@ -362,8 +362,8 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\bark_0021_0.xnb</Output>
-      <Time>2016-11-08T14:27:58.6742318-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\bark_0021_0.xnb</Output>
+      <Time>2016-11-08T14:28:00-05:00</Time>
     </Item>
     <Item>
       <Source>Models\Tree\Tree.fbm\DB2X2_L01.png</Source>
@@ -378,15 +378,15 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\Tree.fbm\DB2X2_L01_0.xnb</Output>
-      <Time>2016-11-08T14:27:41.2369136-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\Tree.fbm\DB2X2_L01_0.xnb</Output>
+      <Time>2016-11-08T14:27:42-05:00</Time>
     </Item>
     <Item>
       <Source>Models\Tree\AlanTree1.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Tree\AlanTree1_0.xml</Output>
-      <Time>2016-11-08T15:32:30.8341209-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\Tree\AlanTree1_0.xml</Output>
+      <Time>2016-11-08T15:32:32-05:00</Time>
     </Item>
     <Item>
       <Source>Models\Tree\BroadleafBark.tga</Source>
@@ -401,8 +401,8 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\BroadleafBark_0.xnb</Output>
-      <Time>2016-11-08T15:32:30.8446283-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\BroadleafBark_0.xnb</Output>
+      <Time>2016-11-08T15:32:32-05:00</Time>
     </Item>
     <Item>
       <Source>Models\Tree\SampleLeaves_2.tga</Source>
@@ -417,8 +417,8 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\SampleLeaves_2_0.xnb</Output>
-      <Time>2016-11-08T15:32:30.8486354-05:00</Time>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\SampleLeaves_2_0.xnb</Output>
+      <Time>2016-11-08T15:32:32-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -427,14 +427,14 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll</Key>
+        <Key>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll</Key>
         <Value>2016-11-06T13:58:06-05:00</Value>
       </Assembly>
       <Assembly>
