@@ -12,7 +12,7 @@ namespace WindowsGame1
     {
         Model myModel;
         Camera camera;
-
+        public bool isActive;
         public Vector3 modelPosition;
         public Vector3 modelRotation;
 

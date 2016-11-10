@@ -24,9 +24,15 @@ namespace WindowsGame1
         public float aspectRatio;
         SpriteBatch spriteBatch;
         KeyboardState oldState;
+        MouseState originalMouseState;
 
 
         Character model_character;
+        Character[] characterList = new Character[10];
+        Character[] treeList = new Character[50];
+        Character[] allanTreeList = new Character[50];
+
+
         Camera camera;
         Terrain terrain;
         People people;
@@ -49,6 +55,7 @@ namespace WindowsGame1
 
             base.Initialize();
             oldState = Keyboard.GetState();
+            originalMouseState = new MouseState();
         }
 
         /// <summary>
@@ -64,13 +71,40 @@ namespace WindowsGame1
             aspectRatio = graphics.GraphicsDevice.Viewport.AspectRatio;
             // TODO: use this.Content to load your game content here
             camera = new Camera(this);
-            Vector3 pos = new Vector3(0.0f, 0.0f, 0.0f);
-            Vector3 rot = new Vector3(0.0f, 0.0f, 0.0f);
-            String path = "Models\\p1_wedge";
-            model_character = new Character(camera,this,pos,rot,path);
+
+            // panda
+            model_character = new Character(camera,this, new Vector3(0.0f, 0.0f, 0.0f),new Vector3(0.0f, 0.0f, 0.0f), "Models\\poO");
+
+            //Cizhen
+            Random rnd = new Random();
+            Character c1 = new Character(camera, this, new Vector3(0.1f, 0.0f, 0.1f), Vector3.Zero, "Models\\Monster2\\monster1_modify");
+            for (int i = 0; i < 10; i++)
+            {
+                float a = (float)rnd.NextDouble() * 128.0f;
+                float b = (float)rnd.NextDouble() * 128.0f;
+                Character c = new Character(camera, this, new Vector3(a, 0.0f, -b), Vector3.Zero, "Models\\Monster2\\monster1_modify");
+                characterList[i] = c;
+            }
+
+            for (int i = 0; i < 50; i++)
+            {
+                float a = (float)rnd.NextDouble() * 128.0f;
+                float b = (float)rnd.NextDouble() * 128.0f;
+                Character tree = new Character(camera, this, new Vector3(a, 0.0f, -b), Vector3.Zero, "Models\\Tree\\tree1");
+                treeList[i] = tree;
+
+                a = (float)rnd.NextDouble() * 128.0f;
+                b = (float)rnd.NextDouble() * 128.0f;
+                Character alanTree = new Character(camera, this, new Vector3(i * 10.0f, 0.0f, -b), Vector3.Zero, "Models\\Tree\\AlanTree1");
+                allanTreeList[i] = alanTree;
+            }
+
+            //Cizhen
+
             terrain = new Terrain(this, camera, device, effect);
 
-            people = new People(camera, this);
+            // people
+            people = new People(camera, this, new Vector3(0.0f, 0.0f, 0.0f), new Vector3(0.0f, 0.0f, 0.0f));
 
         }
 
@@ -96,7 +130,7 @@ namespace WindowsGame1
 
             // TODO: Add your update logic here
             model_character.update(gameTime);
-            camera.update(gameTime, model_character, this);
+            camera.update(gameTime, people, this);
 
             
             processInput(gameTime);
@@ -109,50 +143,86 @@ namespace WindowsGame1
 
             // TODO: Add your drawing code here
             terrain.Draw(camera);
-            model_character.Draw();
-            people.Draw();
+            //model_character.Draw();
+            // people.Draw();
             //people.update(gameTime);
+            //Cizhen
+            model_character.Draw();
+            for (int i = 0; i < characterList.Length; i++)
+            {
+                if (characterList[i].isActive)
+                    characterList[i].Draw();
+            }
+
+            if (people.isActive)
+            {
+                people.Draw();
+                people.update(gameTime);
+            }
+
+            for (int i = 0; i < treeList.Length; i++)
+            {
+                treeList[i].Draw();
+                allanTreeList[i].Draw();
+            }
+            //Cizhen
             base.Draw(gameTime);
         }
 
         private void processInput(GameTime gameTime)
         {
             KeyboardState newState = Keyboard.GetState();
+            MouseState newMouseState = Mouse.GetState();
             // keyboard control
             KeyboardState keyboardState = Keyboard.GetState();
             if (keyboardState.IsKeyDown(Keys.Escape)) this.Exit();
             if (keyboardState.IsKeyDown(Keys.A))
             {
-                model_character.modelPosition.X -= 0.1f;
-                people.modelPosition.X -= 0.01f;
+                //  model_character.modelPosition.X -= 0.1f;
+                Matrix rot = Matrix.CreateRotationX(people.modelRotation.X) * Matrix.CreateRotationY(people.modelRotation.Y
+                        ) * Matrix.CreateRotationZ(people.modelRotation.Z);
+                people.modelPosition += rot.Left / 100;
                 people.update(gameTime);
             }
             if (keyboardState.IsKeyDown(Keys.D))
             {
-                model_character.modelPosition.X += 0.1f;
-                people.modelPosition.X += 0.01f;
+                //  model_character.modelPosition.X += 0.1f;
+                Matrix rot = Matrix.CreateRotationX(people.modelRotation.X) * Matrix.CreateRotationY(people.modelRotation.Y
+                        ) * Matrix.CreateRotationZ(people.modelRotation.Z);
+                people.modelPosition += rot.Right/100;
                 people.update(gameTime);
             }
-            if (keyboardState.IsKeyDown(Keys.Up))
+            if (keyboardState.IsKeyDown(Keys.Left))
             {
-                model_character.modelPosition.Y += 0.1f;
+                // model_character.modelPosition.Y += 0.1f;
+                people.modelRotation += new Vector3(0.0f, 0.01f, 0.0f);
+                camera.rotationz += 0.01f;
             }
-            if (keyboardState.IsKeyDown(Keys.Down))
+            if (keyboardState.IsKeyDown(Keys.Right))
             {
-                model_character.modelPosition.Y -= 0.1f;
+                //  model_character.modelPosition.Y -= 0.1f;
+                people.modelRotation += new Vector3(0.0f, -0.01f, 0.0f);
+                camera.rotationz -= 0.01f;
             }
             if (keyboardState.IsKeyDown(Keys.S))
             {
-                model_character.modelPosition.Z += 0.1f;
+              //  model_character.modelPosition.Z += 0.1f;
                 people.modelPosition.Z += 0.01f;
+                Matrix rot = Matrix.CreateRotationX(people.modelRotation.X) * Matrix.CreateRotationY(people.modelRotation.Y
+                        ) * Matrix.CreateRotationZ(people.modelRotation.Z);
+                people.modelPosition += rot.Backward / 100;
                 people.update(gameTime);
             }
             if (keyboardState.IsKeyDown(Keys.W))
             {
                 model_character.modelPosition.Z -= 0.1f;
-                people.modelPosition.Z -= 0.01f;
+                //  people.modelPosition.Z -= 0.01f;
+                Matrix rot = Matrix.CreateRotationX(people.modelRotation.X) * Matrix.CreateRotationY(people.modelRotation.Y
+                          ) * Matrix.CreateRotationZ(people.modelRotation.Z);
+                people.modelPosition += rot.Forward / 100;
                 people.update(gameTime);
             }
+            
             /*            if (keyboardState.IsKeyDown(Keys.A))
                         {
                             model_character.modelRotation.Z += 0.05f;

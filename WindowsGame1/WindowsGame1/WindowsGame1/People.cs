@@ -13,25 +13,31 @@ namespace WindowsGame1
         Model myModel;
         Camera camera;
 
+        public bool isActive;
+
         public Vector3 modelPosition;
         public Vector3 modelRotation;
         public Matrix world;
 
         AnimationPlayer animationPlayer;
 
-        public People(Camera camera, Game1 game)
+        public People(Camera camera, Game1 game, Vector3 pos, Vector3 rot)
         {
             this.camera = camera;
-            this.modelPosition = new Vector3(0.0f, 0.0f, 0.0f);
-            this.modelRotation = new Vector3(0.0f, 0.0f, 0.0f);
+            this.modelPosition = pos;
+            this.modelRotation = rot;
             myModel = game.Content.Load<Model>("Models\\dude");
             SkinningData skinningData = myModel.Tag as SkinningData;
 
             animationPlayer = new AnimationPlayer(skinningData);
 
             AnimationClip clip = skinningData.AnimationClips["Take 001"];
-
+            //AnimationClip clip = skinningData.AnimationClips["ArmatureAction"];
             animationPlayer.StartClip(clip);
+
+            // Cizhen
+            isActive = true;
+
 
         }
 
@@ -53,7 +59,7 @@ namespace WindowsGame1
                 foreach (SkinnedEffect effect in mesh.Effects)
                 {
                     effect.SetBoneTransforms(bones);
-             //       effect.World = bones[mesh.ParentBone.Index] * world;
+               //     effect.World = bones[mesh.ParentBone.Index] * world;
                     effect.View = camera.view;
                     effect.Projection = camera.projection;
                     effect.EnableDefaultLighting();

@@ -8,24 +8,29 @@ namespace WindowsGame1
     {
         public Matrix projection;
         public Matrix view;
+        public float rotationx;
+        public float rotationz;
 
         public Camera(Game1 game)
         {
             this.projection = Matrix.CreatePerspectiveFieldOfView(MathHelper.PiOver4, game.aspectRatio, 1f, 1000.0f);
-            this.view = Matrix.CreateLookAt(new Vector3(130, 30, -50),
+            this.view = Matrix.CreateLookAt(new Vector3(0, 0, -30),
                         Vector3.Zero, Vector3.Up);
+            rotationx = 0.0f;
+            rotationz = 0.0f;
         }
 
-        public void update(GameTime gameTime,Character c,Game1 game)
+        public void update(GameTime gameTime,People c,Game1 game)
         {
-            Vector3 campos = new Vector3(0, 2f, 3f);
-            campos = Vector3.Transform(campos, Matrix.CreateFromQuaternion(Quaternion.Identity));
+            Vector3 campos = new Vector3(0, 1f, 2f);
+            Matrix rotation = Matrix.CreateRotationX(rotationx) * Matrix.CreateRotationY(rotationz);
+            campos = Vector3.Transform(campos, rotation);
             campos += c.modelPosition;
 
             Vector3 camup = new Vector3(0, 1, 0);
-            camup = Vector3.Transform(camup, Matrix.CreateFromQuaternion(Quaternion.Identity));
+            camup = Vector3.Transform(camup, rotation);
 
-            view = Matrix.CreateLookAt(campos, c.modelPosition, camup);
+            view = Matrix.CreateLookAt(campos, c.modelPosition + new Vector3(0.0f, 1.0f, 0.0f), camup);
             projection = Matrix.CreatePerspectiveFieldOfView(MathHelper.PiOver4, game.aspectRatio, 0.2f, 500.0f);
         }
 
