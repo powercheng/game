@@ -127,7 +127,6 @@ C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86
 C:\Users\peng\Desktop\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb
 C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\p1_wedge.xnb
 C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\dude.xnb
-C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\po1.xnb
 C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Monster1\spino.xnb
 C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Monster2\monster1_modify.xnb
 C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Tree\tree1.xnb
@@ -189,3 +188,4 @@ C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\Windo
 C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Skybox\SkyBox_Front_0.xnb
 C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Skybox\SkyBox_Back_0.xnb
 C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Skybox\SkyBox_Bottom_0.xnb
+C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\poO.xnb

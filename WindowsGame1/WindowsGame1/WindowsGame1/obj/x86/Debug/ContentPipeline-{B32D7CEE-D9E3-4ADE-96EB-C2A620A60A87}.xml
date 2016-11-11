@@ -187,10 +187,10 @@
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\poO.xnb</Output>
-      <Time>2016-11-08T11:41:39.9027227-05:00</Time>
+      <Time>2016-11-10T21:28:31.6110163-05:00</Time>
       <Dependency>
         <Key>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\poO_0.xml</Key>
-        <Value>2016-11-08T11:42:02.6414387-05:00</Value>
+        <Value>2016-11-10T21:28:37.0967538-05:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -198,7 +198,7 @@
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>C:\Users\peng\Documents\GitHub\game-development\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\poO_0.xml</Output>
-      <Time>2016-11-08T11:41:39.9027227-05:00</Time>
+      <Time>2016-11-10T21:28:31.6110163-05:00</Time>
     </Item>
     <Item>
       <Source>Models\Tree\AlanTree1.fbx</Source>

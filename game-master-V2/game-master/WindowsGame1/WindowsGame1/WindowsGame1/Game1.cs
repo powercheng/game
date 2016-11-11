@@ -83,7 +83,9 @@ namespace WindowsGame1
             aspectRatio = graphics.GraphicsDevice.Viewport.AspectRatio;
             // TODO: use this.Content to load your game content here
             camera = new Camera(this);
-            po = new Character(camera, this, "Models\\po1", 0.002f, new Vector3(0.0f, 0.0f, 0.0f), new Vector3(0.0f, MathHelper.Pi, 0.0f));
+            // panda
+            po = new Character(camera, this, "Models\\poO",0.003f,new Vector3(61.0f, 0.0f,-61.0f), new Vector3(0.0f, 0.0f, 0.0f));
+
             // model_character = new Character(camera, this, "Models\\Monster1\\po", 0.002f);
             sky = new Sky(camera, this);
             //Cizhen
@@ -178,6 +180,7 @@ namespace WindowsGame1
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
             sky.draw();
+            po.Draw();
 
             // TODO: Add your drawing code here
             terrain.Draw(camera);

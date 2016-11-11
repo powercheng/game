@@ -1,6 +1,5 @@
 Content\Models\p1_wedge.xnb
 Content\Models\dude.xnb
-Content\Models\po1.xnb
 Content\Models\Monster1\spino.xnb
 Content\Models\Monster2\monster1_modify.xnb
 Content\Models\Tree\tree1.xnb
@@ -44,3 +43,4 @@ Content\Skybox\SkyBox_Left_0.xnb
 Content\Skybox\SkyBox_Front_0.xnb
 Content\Skybox\SkyBox_Back_0.xnb
 Content\Skybox\SkyBox_Bottom_0.xnb
+Content\Models\poO.xnb

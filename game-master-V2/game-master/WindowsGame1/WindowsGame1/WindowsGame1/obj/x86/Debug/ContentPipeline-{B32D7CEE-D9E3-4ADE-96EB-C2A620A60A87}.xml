@@ -33,19 +33,6 @@
       <Request>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\upBodyC_0.xnb</Request>
     </Item>
     <Item>
-      <Source>Models\po1.fbx</Source>
-      <Name>Models\po1</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\po1.xnb</Output>
-      <Time>2016-11-07T22:05:34-05:00</Time>
-      <Dependency>
-        <Key>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\po1_0.xml</Key>
-        <Value>2016-11-10T16:36:13.9535483-05:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
       <Source>Models\Monster1\spino.fbx</Source>
       <Name>Models\Monster1\spino</Name>
       <Importer>FbxImporter</Importer>
@@ -320,13 +307,6 @@
       <Options>None</Options>
       <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\upBodyC_0.xnb</Output>
       <Time>2016-11-06T13:58:06-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\po1.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\po1_0.xml</Output>
-      <Time>2016-11-07T22:05:34-05:00</Time>
     </Item>
     <Item>
       <Source>Models\Monster1\spino.fbx</Source>
@@ -641,6 +621,26 @@
       <Options>None</Options>
       <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Skybox\SkyBox_Bottom_0.xnb</Output>
       <Time>2016-11-10T18:16:20.9483744-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\poO.fbx</Source>
+      <Name>Models\poO</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\poO.xnb</Output>
+      <Time>2016-11-10T21:33:20.8654517-05:00</Time>
+      <Dependency>
+        <Key>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\poO_0.xml</Key>
+        <Value>2016-11-10T21:33:26.1881744-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\poO.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\peng\Documents\GitHub\game-development\game-master-V2\game-master\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Models\poO_0.xml</Output>
+      <Time>2016-11-10T21:33:20.8654517-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
